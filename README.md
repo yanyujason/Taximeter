@@ -1,4 +1,12 @@
 Taximeter
 =========
 
-我们考虑出租车计价问题，出租车的运价是每公里0.8元，八公里起会加收50%的每公里运价，起步价是两公里以内6块，停车等待时加收每分钟0.25元，最后计价的时候司机会四舍五入只收块块钱
+Taximeter:
+1. $6 - Flag Price including 2 kilometer
+2. $0.8 - Price Per Kilometer
+3. 50% extra charge after 8 kilometers
+4. $0.25 - Stop Waiting Fee
+5. Charge needs be rounded
+
+Requirements:
+Calculate the charge
